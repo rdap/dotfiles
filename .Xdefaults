@@ -1,0 +1,71 @@
+XTerm.vt100.foreground:	#f4f4f4
+XTerm.vt100.background:	#161616
+XTerm.vt100.cursorColor:#8a3ffc
+
+
+! black
+*.color0:		#161616
+*.color8:		#8d8d8d
+
+! red
+*.color1:		#da1e28
+*.color9:		#ff8389
+
+! green
+*.color2:		#198038
+*.color10:		#42be65
+
+! orange
+*.color3:		#da801e
+*.color11:		#faa74d
+
+! blue
+*.color4:		#0f62fe
+*.color12:		#78a9ff
+
+! magenta
+*.color5:		#d02670
+*.color13:		#ff7eb6
+
+! cyan
+*.color6:		#007d79
+*.color14:		#08bdba
+
+! white
+*.color7:		#f4f4f4
+*.color15:		#ffffff
+
+
+! Application-specific resources
+
+*font:			-gnu-unifont-*-*-*-*-*-*-*-*-*-0-iso10646-1
+
+XTerm*vt100*font:	-gnu-unifont-*-*-*-*-*-*-*-*-*-0-iso10646-1
+XTerm*faceName:		IBMPlexMono:size=12
+XTerm*internalBorder:	4
+XTerm*renderFont:	true
+
+XTerm*scrollBarBorder:	0
+
+XTerm*scrollBar:	true
+XTerm*rightScrollBar:	true
+XTerm*scrollKey:	true
+*Scrollbar*borderColor:	black
+*Scrollbar*thickness:	6
+*Scrollbar*foreground:	#8a3ffc
+*Scrollbar*background:	#161616
+*Scrollbar.thumb:	black
+
+XTerm*metaSendsEscape:	true
+XTerm*alternateScroll:	true
+
+XTerm*boldMode:		false
+XTerm*underLine:	false
+!XTerm*alwaysBoldMode:	false
+!XTerm*allowBoldfonts:	false
+XTerm*forcePackedFont:	false
+
+XTerm*colorBD:		#f4f4f4
+XTerm*colorBDMode:	true
+XTerm*colorULMode:	true
+XTerm*colorUL:		#0f62fe

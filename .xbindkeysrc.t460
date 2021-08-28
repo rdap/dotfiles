@@ -1,0 +1,17 @@
+"pactl set-sink-mute @DEFAULT_SINK@ toggle"
+  XF86AudioMute
+
+"amixer -D pulse sset Master 4096-"
+  XF86AudioLowerVolume
+
+"amixer -D pulse sset Master 4096+"
+  XF86AudioRaiseVolume
+  
+"pactl set-source-mute 1 toggle"
+  XF86AudioMicMute
+
+"/usr/local/lib/T460/decrement_brightness"
+  XF86MonBrightnessDown
+
+"/usr/local/lib/T460/increment_brightness"
+  XF86MonBrightnessUp

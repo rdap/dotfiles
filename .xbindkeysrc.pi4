@@ -1,0 +1,8 @@
+"amixer -q set Digital toggle"
+  XF86AudioMute
+
+"amixer -q sset Digital 1-"
+  XF86AudioLowerVolume
+
+"amixer -q sset Digital 1+"
+  XF86AudioRaiseVolume

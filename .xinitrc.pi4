@@ -1,0 +1,15 @@
+# Raspberry Pi 4 .xinitrc
+
+xsetroot -solid \#262626
+
+xinput set-prop 8 266 1
+xinput set-prop 8 289 1
+
+xbindkeys
+
+while true; do
+  xsetroot -name "   $(date)"
+  sleep 1
+done &
+
+exec io
